@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>창업안내 </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" href="img/logo01.png">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../reset.css">
+    <link rel="stylesheet" type="text/css" href="css/member.css">
+    <!-- java script -->
+    <!-- 제이쿼리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- 자바 -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+<body>
+    <div class="wrap">
+        <header id="header">
+            <nav class="gnb row">
+                <div class="top_my">
+                    <ul class="my_menu">
+                        <li><a href="#">장바구니</a></li>
+                        <li><a href="#">Myfage</a></li>
+                        <li><a href="./index.html">회원가입</a></li>
+                        <li><a href="../login/index.html">로그인</a></li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <h1 class="full_logo">
+                        <a href="../index.html">
+                            <img src="img/logo01.png" alt="풀소유로고">
+                        </a>
+                    </h1>
+                    <ul class="gnb-menu">
+                        <li><a href="../menu/index.html">메뉴</a>
+                        <ul class="gnb-submenu">
+                            <li><a href="../menu/index.html#tab01">샐러드</a></li>
+                            <li><a href="../menu/index.html#tab02">보울</a></li>
+                            <li><a href="../menu/index.html#tab03">샌드위치</a></li>
+                            <li><a href="../menu/index.html#tab04">음료</a></li>
+                            <li><a href="../menu/index.html#tab05">사이드</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="../location/index.html">매장찾기</a>
+                            <ul class="gnb-submenu">
+                                <li><a href="../location/index.html">매장찾기</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../intro/index.html">풀소유소개</a>
+                            <ul class="gnb-submenu">
+                                <li><a href="../intro/index.html">인사말</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="../shop/index.html">창업안내</a>
+                            <ul class="gnb-submenu">
+                                <li><a href="../shop/index.html#tab01">오픈준비과정</a></li>
+                                <li><a href="../shop/index.html#tab02">FAQ</a></li>
+                                <li><a href="../shop/index.html#tab03">온라인창업문의</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- <ul class="gnb-sns">
+                        <li><a href="#!"><i class="xi-search"></i></a></li>
+                        <li><a href="#!"><i class="xi-bars"></i></a></li>
+                    </ul> -->
+                </div>
+            </nav>
+            <!-- <div class="search">
+                <form name="search_top" id="search_top" method="get" action="">
+                    <label>SEARCH </label>
+                    <input type="search" name="searchInput" id="searchInput" placeholder="검색어를 입력하세요">
+                    <button type="submit"><i class="xi-search"></i></button>
+                </form>
+            </div> -->
+        </header>
+        <main>
+            <section class="member">
+                <h1 class="member_text">
+                    회원가입
+                </h1>
+                        <!-- wrapper -->
+            <div id="wrapper">
+
+                <!-- content-->
+                <div id="content">
+
+                    <!-- ID -->
+                    <div>
+                        <h3 class="join_title">
+                            <label for="id">아이디</label>
+                        </h3>
+                        <span class="box int_id">
+                            <input type="text" id="id" class="int" maxlength="20">
+                            <span class="step_url"></span>
+                        </span>
+                        <span class="error_next_box"></span>
+                    </div>
+
+                    <!-- PW1 -->
+                    <div>
+                        <h3 class="join_title"><label for="pswd1">비밀번호</label></h3>
+                        <span class="box int_pass">
+                            <input type="password" id="pswd1" class="int" maxlength="20">
+                            <span id="alertTxt">사용불가</span>
+                            <img src="./img/m_icon_pass.png" id="pswd1_img1" class="pswdImg">
+                        </span>
+                        <span class="error_next_box"></span>
+                    </div>
+
+                    <!-- PW2 -->
+                    <div>
+                        <h3 class="join_title"><label for="pswd2">비밀번호 재확인</label></h3>
+                        <span class="box int_pass_check">
+                            <input type="password" id="pswd2" class="int" maxlength="20">
+                            <img src="./img/m_icon_check_disable.png" id="pswd2_img1" class="pswdImg">
+                        </span>
+                        <span class="error_next_box"></span>
+                    </div>
+
+                    <!-- NAME -->
+                    <div>
+                        <h3 class="join_title"><label for="name">이름</label></h3>
+                        <span class="box int_name">
+                            <input type="text" id="name" class="int" maxlength="20">
+                        </span>
+                        <span class="error_next_box"></span>
+                    </div>
+
+                    <!-- BIRTH -->
+                    <div>
+                        <h3 class="join_title"><label for="yy">생년월일</label></h3>
+
+                        <div id="bir_wrap">
+                            <!-- BIRTH_YY -->
+                            <div id="bir_yy">
+                                <span class="box">
+                                    <input type="text" id="yy" class="int" maxlength="4" placeholder="년(4자)">
+                                </span>
+                            </div>
+
+                            <!-- BIRTH_MM -->
+                            <div id="bir_mm">
+                                <span class="box">
+                                    <select id="mm" class="sel">
+                                        <option>월</option>
+                                        <option value="01">1</option>
+                                        <option value="02">2</option>
+                                        <option value="03">3</option>
+                                        <option value="04">4</option>
+                                        <option value="05">5</option>
+                                        <option value="06">6</option>
+                                        <option value="07">7</option>
+                                        <option value="08">8</option>
+                                        <option value="09">9</option>                                    
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                </span>
+                            </div>
+
+                            <!-- BIRTH_DD -->
+                            <div id="bir_dd">
+                                <span class="box">
+                                    <input type="text" id="dd" class="int" maxlength="2" placeholder="일">
+                                </span>
+                            </div>
+
+                        </div>
+                        <span class="error_next_box"></span>    
+                    </div>
+
+                    <!-- GENDER -->
+                    <div>
+                        <h3 class="join_title"><label for="gender">성별</label></h3>
+                        <span class="box gender_code">
+                            <select id="gender" class="sel">
+                                <option>성별</option>
+                                <option value="M">남자</option>
+                                <option value="F">여자</option>
+                            </select>                            
+                        </span>
+                        <span class="error_next_box">필수 정보입니다.</span>
+                    </div>
+
+                    <!-- EMAIL -->
+                    <div>
+                        <h3 class="join_title"><label for="email">본인확인 이메일<span class="optional">(선택)</span></label></h3>
+                        <span class="box int_email">
+                            <input type="text" id="email" class="int" maxlength="100" placeholder="선택입력">
+                        </span>
+                        <span class="error_next_box">이메일 주소를 다시 확인해주세요.</span>    
+                    </div>
+
+                    <!-- MOBILE -->
+                    <div>
+                        <h3 class="join_title"><label for="phoneNo">휴대전화</label></h3>
+                        <span class="box int_mobile">
+                            <input type="tel" id="mobile" class="int" maxlength="16" placeholder="전화번호 입력">
+                        </span>
+                        <span class="error_next_box"></span>    
+                    </div>
+
+
+                    <!-- JOIN BTN-->
+                    <div class="btn_area">
+                        <button type="button" id="btnJoin">
+                            <span>가입하기</span>
+                        </button>
+                    </div>
+
+                    
+
+                </div> 
+                <!-- content-->
+
+            </div> 
+            <!-- wrapper -->
+            </section>
+        </main>
+        <footer>
+            <div class="container01">
+                <dl class="sns">
+                    <dd>
+                        <a href="#!" target="blank"><i class="xi-instagram"></i></a>
+                    </dd>
+                    <dd>
+                        <a href="#!" target="blank"><i class="xi-facebook"></i></a>
+                    </dd>
+                    <dd>
+                        <a href="#!" target="blank"><i class="xi-kakaotalk"></i></a>
+                    </dd>
+                    <dd>
+                        <a href="#!" target="blank"><i class="xi-youtube-play"></i></a>
+                    </dd>
+                    <dd>
+                        <a href="#!" target="blank"><i class="xi-naver-square"></i></a>
+                    </dd>
+                </dl>
+            </div>
+
+            <address>
+                <img src="./img/logo.png" alt="로고"><br>
+                <div class="row">
+                    <dl>
+                        <dd>(주)풀소유</dd>
+                        <dd><a href="mailto:webmaster@menu_text.co.kr" class="sns-mail">webmaster@menu_text.co.kr<br></a></dd>
+                        <dd><a href="tel:1644-2357" class="sns-tel">고객센터 1644-1234&nbsp</a></dd>
+                        <dd>대표이사 : 박땡땡, 박땡땡</dd>
+                        <dd>사업자등록번호 : 123-45-6789&nbsp;</dd>
+                        <dd>&nbsp주소: 부산광역시 부산진구 어느동</dd>
+                        <dd>통신판매업 신고번호: 2012-서울서초-0647&nbsp&nbsp</dd>
+                        <dd>개인정보보호책임자: 땡땡땡&nbsp</dd>
+                    </dl>
+                    <div>
+                        COPYRIGHT&copy; Fullsoyou.CO.LTD.ALL RIGHTS RESERVED
+                    </div>
+                </div>
+
+            </address>
+        </footer>
+        <div class="mopen">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        </div>
+        <script src="./js/member.js"></script>
+        </body>
+        </html>

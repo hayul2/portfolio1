@@ -1,0 +1,1369 @@
+.lush {
+    font-family: 'lush';
+}
+
+header {
+    position: relative;
+}
+
+.top-banner {
+    color: #333;
+    font-size: 0.7rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.top-banner > div {
+    padding: 0 0.75rem;
+    position: relative;
+}
+
+.top-banner i {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.75rem;
+    cursor: pointer;
+    padding: 0.25rem;
+    background: #666;
+}
+
+/* my fage*/
+.top_my {
+    width: 100%;
+    height: 40px;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+.my_menu {
+    width:1200px;
+}
+.my_menu li {
+    float:right;
+    text-align: center;
+    padding:0 15px;
+    font-size:0.6rem;
+}
+
+nav {
+    position: relative;
+}
+
+nav > div {
+    padding: 0 0.75rem;
+}
+
+nav .full_logo {
+    float: left;
+    width: 20%;
+    line-height: 5rem;
+}
+nav .full_logo  img {
+    height:50px;
+}
+
+/* nav */
+nav .gnb-menu {
+    float: left;
+    width: 73%;
+    font-size: 0;
+    text-align: right;
+}
+
+nav .gnb-sns {
+    float: right;
+    font-size: 0;
+    text-align: right;
+}
+
+nav .gnb-menu > li {
+    display: inline-block;
+    font-size: 0.8rem;
+    position: relative;
+}
+
+nav .gnb-menu > li > a {
+    display: block;
+    padding: 2rem 1.5rem;
+    position: relative;
+    height: 1rem;
+    box-sizing: content-box;
+    font-size: 18px;
+}
+
+nav .gnb-menu > li > a:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 12px;
+    background: #999;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%)
+}
+
+nav .gnb-menu > li:last-child > a:after {
+    display: none;
+}
+
+
+nav .gnb-menu > li .gnb-submenu {
+    display: none;
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #ddd;
+    z-index: 222;
+}
+
+nav .gnb-menu > li:hover .gnb-submenu {
+    display: block;
+}
+
+nav .gnb-menu li:focus > .gnb-submenu a:hover {
+    background: #fff;
+    color: #333;
+}
+nav .mobile-gnb-menu {
+    display: none;
+}
+
+nav ul .gnb-submenu:before {
+    content: "";
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: -0.2rem;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+nav ul .gnb-submenu li {
+    font-size: 0.6rem;
+}
+
+nav ul .gnb-submenu > li a {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    position: relative;
+    color: #333;
+    float: left;
+    width: 9rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 15px
+}
+nav ul .gnb-submenu > li a:hover {
+    background: #eee
+}
+
+nav ul .gnb-submenu > li:last-child a {
+    border-bottom: none;
+    height: 2.8rem;
+}
+/* nav .gnb-sns > li {
+    display: inline-block;
+    font-size: 0.8rem;
+    position: relative;
+}
+
+nav .gnb-sns > li > i {
+    padding: 0 1rem 0 1rem;
+    font-size: 0.8rem;
+    line-height: 5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+nav .gnb-sns > li > i:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 12px;
+    background: #999;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%)
+}
+
+nav .gnb-sns > li:last-child > i:after {
+    display: none;
+}
+
+nav .gnb-sns > li:last-child > i {
+    padding: 0 0 0 1rem;
+}
+
+/* 검색창 */
+/* header .search {
+    display: none;
+    background: #0e563f;
+    color: #fff;
+    text-align: center;
+    padding: 0.75rem 0;
+}
+
+header .search input[type="search"] {
+    width: 20rem;
+    padding: 0.25rem 0;
+    background: #fff;
+    color: #333;
+    border: none;
+    font-size: 0.7rem;
+}
+
+header .search label {
+    padding: 0 2rem 0 0;
+} */ */
+
+
+/* shop_tab */
+.shop {
+    width:100%;
+    margin:0 auto;
+    padding:50px 0;
+}
+.shop_main_text {
+    text-align: center;
+    font-size:40px;
+    padding:30px 0 100px 0;
+}
+.tab_menu {
+    width:1200px;
+    margin:0 auto;
+    margin:0 auto;
+}
+.tab_menu_text {
+    text-align:center;
+    font-size:40px;
+    padding:30px 0;
+}
+.tab{
+    float:left; 
+    width:100%;
+}
+.tabnav{
+    font-size:0; 
+    width:100%; 
+    text-align:center;
+}
+.tabnav li{
+    display: inline-block; 
+    height:46px; 
+    text-align:center; 
+}
+.tabnav li a:before{
+    content:""; 
+    position:absolute; 
+    left:0; top:0px; 
+    width:100%; height:3px; 
+}
+.tabnav li a.active:before{
+    background:#7ea21e;
+}
+.tabnav li a.active{
+    border-bottom:1px solid #fff;
+}
+.tabnav li a{ 
+    position:relative; 
+    display:block; 
+    background: #f8f8f8; 
+    color: #000; 
+    padding:0 30px; 
+    line-height:46px; 
+    text-decoration:none; 
+    font-size:16px;
+}
+.tabnav li a:hover,
+.tabnav li a.active{
+    background:#fff; 
+    color:#7ea21e; 
+}
+.tabcontent{
+    padding: 50px; 
+    border-top:none;
+}
+
+/* tab01 ready */
+#tab01 {
+    width:100%;
+    margin:0 auto;
+}
+#tab01 .ready01, .ready02, .ready03 {
+    text-align: center;
+    padding:50px 0;
+    margin:0 auto;
+    width:220px;
+}
+.ready_text {
+    border: 1px solid #7ea21e;
+    background:#7ea21e;
+    border-radius: 10px;
+    line-height:70px;
+    color:#fff;
+}
+/* tab02 acc */
+.que:first-child{
+    border-top: 1px solid black;
+  }
+  
+.que{
+  position: relative;
+  padding: 17px 0;
+  cursor: pointer;
+  font-size: 14px;
+  border-bottom: 1px solid #dddddd;
+  
+}
+  
+.que::before{
+  display: inline-block;
+  content: 'Q';
+  font-size: 14px;
+  color: #006633;
+  margin-right: 5px;
+}
+
+.que.on>span{
+  font-weight: bold;
+  color: #006633; 
+}
+  
+.anw {
+  display: none;
+    overflow: hidden;
+  font-size: 14px;
+  background-color: #f4f4f2;
+  padding: 27px 0;
+}
+  
+.anw::before {
+  display: inline-block;
+  content: 'A';
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  margin-right: 5px;
+}
+/* tab03 */
+#tab03 {
+     width:100%;
+     padding:30px 0;
+     height:150vh;
+ } 
+.tab_wrap {
+    width:900px;
+    margin:0 auto;
+}
+/* 문의하기 */
+  .member {
+    width:100%;
+    height:155vh;
+    padding:50px 0;
+}
+.member_text {
+    text-align: center;
+    font-size:30px;
+}
+#wrapper {
+  position: relative;
+  height: 100%;
+}
+
+#content {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 460px;
+}
+
+/* 입력폼 */
+
+input:focus {
+  outline: none;
+}
+
+
+h3 {
+  margin: 19px 0 8px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+.box {
+  display: block;
+  width: 100%;
+  height: 51px;
+  border: solid 1px #dadada;
+  padding: 10px 14px 10px 14px;
+  box-sizing: border-box;
+  background: #fff;
+  position: relative;
+}
+
+.int {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 29px;
+  border: none;
+  background: #fff;
+  font-size: 15px;
+}
+
+input {
+  font-family: Dotum,'돋움',Helvetica,sans-serif;    
+}
+
+
+.step_url {
+  /*@naver.com*/
+  position: absolute;
+  top: 16px;
+  right: 13px;
+  font-size: 15px;
+  color: #8e8e8e;
+}
+
+
+
+select {
+  width: 100%;
+  height: 29px;
+  font-size: 15px;
+  background: #fff url(https://static.nid.naver.com/images/join/pc/sel_arr_2x.gif) 100% 50% no-repeat;
+  background-size: 20px 8px;
+  -webkit-appearance: none;
+  display: inline-block;
+  text-align: start;
+  border: none;
+  cursor: default;
+  font-family: Dotum,'돋움',Helvetica,sans-serif;
+}
+
+/* 에러메세지 */
+
+.error_next_box {
+  margin-top: 9px;
+  font-size: 12px;
+  color: red;    
+  display: none;
+}
+
+#alertTxt {
+  position: absolute;
+  top: 19px;
+  right: 38px;
+  font-size: 12px;
+  color: red;
+  display: none;
+}
+
+/* 버튼 */
+
+.btn_area {
+  margin:30px 80px 91px;;
+}
+
+#btnJoin {
+  width: 300px;
+  padding: 21px 0 17px;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  background-color: #08a600;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Dotum,'돋움',Helvetica,sans-serif;
+}
+
+
+/* footer */
+
+footer {
+    padding: 0;
+    font-size: 12px;
+    font-weight: 300;
+    color: #333;
+    background: #fff;
+    height: 200px;
+}
+
+footer .container01 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+footer .container01 > ul {
+    margin: 0 auto;
+}
+
+footer .container01 > ul > li {
+    float: left;
+}
+
+footer .container01 > ul > li > a {
+    line-height: 40px;
+    padding: 0 43px;
+}
+
+footer .container01 > ul > li a:hover {
+    text-decoration: underline;
+}
+
+footer .container01 > ul > li:first-child a {
+    padding-left: 0;
+}
+
+footer .container01 > ul > li:first-child {
+    position: relative;
+}
+
+footer .container01 > ul > li:nth-child(4) {
+    font-weight: 700;
+}
+
+footer .link {
+    position: absolute;
+    bottom: 41px;
+    left: -58px;
+    background: #f7f7f7;
+    color: #333;
+    width: 170px;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+footer .link.on {
+    height: auto;
+}
+
+footer .link a {
+    display: block;
+    line-height: 30px
+}
+
+footer .link a:hover {
+    background: #fff;
+}
+
+footer .link-btn a i {
+    color: #f00;
+}
+
+footer .link-btn a.on i {
+    transform: rotate(180deg)
+}
+
+footer .container01 {
+    position: relative;
+}
+
+.sns {
+    display:none;
+    position: absolute;
+    right: 8%;
+    top: 10px;
+}
+
+.sns dd {
+    font-size: 20px;
+    color: #949595;
+    float: left;
+}
+
+footer address img {
+    padding: 30px 0;
+    margin: 0 auto;
+    float: left;
+    margin-right: 50px;
+    width: 150px;
+}
+
+footer address {
+    float: left;
+    width: 100%;
+    padding: 15px 133px;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 10px;
+    background: #fff;
+    text-align: center;
+}
+
+footer address dl {
+    font-size: 0;
+}
+
+footer address dd {
+    display: inline-block;
+    line-height: 1.2;
+    position: relative;
+    font-size: 14px;
+    padding: 0;
+    margin: 0 10px;
+}
+
+footer address dd:last-child {
+    padding-left: 0;
+}
+
+footer address dd:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 12px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+}
+
+footer address dd:last-child:after {
+    display: none;
+}
+
+footer address > div {
+    line-height: 30px;
+    padding-top: 30px;
+    padding-left: 142px;
+}
+
+footer address > div > div {
+    padding: 30px 0;
+}
+
+footer address dd:first-child:after {
+    display: none;
+}
+
+footer address dd:first-child {
+    padding-left: 0;
+}
+
+footer address dd {
+    line-height: 30px;
+}
+
+footer address div {
+    line-height: 30px;
+}
+
+.mopen {
+    display: none;
+    position: fixed;
+    top: 1.7rem;
+    right: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #fff;
+    z-index: 999;
+}
+
+.mopen > span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0.1rem;
+    width: 1.3rem;
+    height: 1px;
+    background: #333;
+    transition: 0.3s;
+}
+
+.mopen > span:nth-child(1) {
+    top: 0.2rem;
+}
+
+.mopen > span:nth-child(2) {
+    top: 0.7rem;
+}
+
+.mopen > span:nth-child(3) {
+    top: 0.7rem;
+}
+
+.mopen > span:nth-child(4) {
+    top: 1.2rem;
+}
+
+.mopen.on > span:nth-child(1) {
+    opacity: 0;
+}
+
+.mopen.on > span:nth-child(2) {
+    transform: rotate(45deg)
+}
+
+.mopen.on > span:nth-child(3) {
+    transform: rotate(-45deg)
+}
+
+.mopen.on > span:nth-child(4) {
+    opacity: 0;
+}
+
+
+@media (max-width:768px) {
+ /* * {outline:1px solid #f00;} */
+    .container {width:100%;}
+    nav h1 img {
+        height:auto;
+    }
+    nav {
+        position: relative;
+    }
+    nav a {
+        display:block;
+    }
+    
+    nav > div {
+        padding: 0 0.75rem;
+    }
+    nav h1 {
+        float: left;
+        width: 100%;
+        line-height:0;
+        padding:0;
+    }
+    
+    nav .gnb-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background: #fff;
+        float: none;
+        width: calc(100% - 90px);
+        height: 100vh;
+        font-size: 0;
+        text-align: left;
+        border-right: 1px solid #ddd;
+        padding: 2rem 1rem;
+        transition: 0.3s;
+        z-index: 999;
+    }
+    
+    nav.on .gnb-menu {
+        left: 0;
+    }
+    
+    nav .gnb-sns {
+        display: none;
+        float: right;
+        font-size: 0;
+        text-align: right;
+    }
+    
+    nav .gnb-menu > li {
+        display: block;
+        font-size: 0.8rem;
+        position: relative;
+    }
+    
+    nav .gnb-menu > li > a {
+        display: block;
+        padding:1rem 0.5rem;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        color:#0e563f;
+        font-weight: 500;
+        font-size:1rem;
+    }
+    
+    nav .gnb-menu > li > a:after {
+        content: "+";
+        display: block;
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        position: absolute;
+        top: 1.1rem;
+        right: 0.3rem;
+        transform: translateY(-50%);
+        color: #ddd;
+    }
+    
+    nav .gnb-menu > li:last-child > a:after {
+        display: block;
+    }
+    
+    nav .gnb-sns > li {
+        display: inline-block;
+        font-size: 0.8rem;
+        position: relative;
+    }
+    
+    nav .gnb-sns > li > a {
+        padding: 0 1rem 0 1rem;
+        font-size: 0.8rem;
+        line-height: 5rem;
+        position: relative;
+    }
+    
+    nav .gnb-sns > li > a:after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 12px;
+        background: #0e563f;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%)
+    }
+    
+    
+    nav .gnb-sns > li:last-child > a:after {
+        display: none;
+    }
+    
+    nav .gnb-sns > li:last-child > a {
+        padding: 0 0 0 1rem;
+    }
+    
+    nav .gnb-menu > li .gnb-submenu {
+        height: auto;
+        overflow: hidden;
+        background: #f2f2f2;
+        transition: 0.1s;
+        position: static;
+        top: 0;
+        left: 0;
+        transform: translateX(0);
+        padding: 0 0 0 0;
+        z-index: 222;
+        width:100%;
+        display: none;
+    }
+    nav ul> li .gnb-submenu {
+        height: 0;
+    }
+    nav ul:hover > li .gnb-submenu {
+        height: 0;
+    }
+    
+    nav .gnb-menu > li:hover .gnb-submenu {
+        display: none;
+    }
+    
+    nav .gnb-menu li:focus > .gnb-submenu a:hover {
+        background: #fff;
+        color: #333;
+    }
+    
+    nav ul > li .gnb-submenu.on {
+        height: 9.3rem;
+    }
+    nav .gnb-menu:after {
+        display: none;
+        height: 0;
+        transition: 0.3s;
+        content: "";
+        width: 100%;
+        background: #fff;
+        border-bottom: 1px solid #ddd;
+        position: absolute;
+        top: calc(5rem + 1px);
+        left: 0;
+        z-index: 111;
+    }
+    nav .gnb-menu:hover:after {
+        display: none !important;
+    }
+    nav .gnb-menu:hover > li .gnb-submenu {
+        display: none;
+    }
+    
+    nav ul .gnb-submenu > li a {
+        display: block;
+        text-align: left;
+        line-height: 2rem;
+        padding: 0 0.5rem;
+        border-bottom: 1px solid #ddd;
+        background:#fff;
+        color:#727272;
+        width:100%;
+        font-size: 0.75rem;
+    }
+    
+    nav .gnb-menu > li:hover .gnb-submenu {
+        display:none;
+        height:auto;
+    }
+    
+    nav .gnb-menu li:focus > .gnb-submenu a:hover {
+        display:none;
+        background: #fff;
+        color: #333;
+    }
+    
+    
+    nav ul .gnb-submenu:before {
+        content: "";
+        display:none;
+        width: 1rem;
+        height: 1rem;
+        background: #fff;
+        border: 1px solid #ddd;
+        position: absolute;
+        top: -0.2rem;
+        left: 50%;
+        transform: translateX(-50%) rotate(45deg);
+    }
+    
+    
+    
+    /* shop_tab */
+    .shop {
+        width:100%;
+        margin:0 auto;
+        padding:0;
+    }
+    .shop_main_text {
+        text-align: center;
+        font-size:40px;
+        padding:30px 0 50px 0;
+    }
+    .tab_menu {
+        width:100%;
+        margin:0 auto;
+        margin:0 auto;
+    }
+    .tab_menu_text {
+        text-align:center;
+        font-size:40px;
+        padding:30px 0;
+    }
+    .tab{
+        float:left; 
+        width:100%;
+    }
+    .tabnav{
+        font-size:0; 
+        width:100%; 
+        text-align:center;
+    }
+    .tabnav li{
+        display: inline-block; 
+        height:46px; 
+        text-align:center; 
+        width:33.333333%;
+    }
+    .tabnav li a:before{
+        content:""; 
+        position:absolute; 
+        left:0; top:0px; 
+        width:100%; height:3px; 
+    }
+    .tabnav li a.active:before{
+        background:#7ea21e;
+    }
+    .tabnav li a.active{
+        border-bottom:1px solid #fff;
+    }
+    .tabnav li a{ 
+        position:relative; 
+        display:block; 
+        background: #f8f8f8; 
+        color: #000; 
+        padding:0; 
+        line-height:46px; 
+        text-decoration:none; 
+        font-size:16px;
+        width:100%;
+    }
+    .tabnav li a:hover,
+    .tabnav li a.active{
+        background:#fff; 
+        color:#7ea21e; 
+    }
+    .tabcontent{
+        padding:20px 50px 50px 50px; 
+        border-top:none;
+    }
+    
+    /* tab01 ready */
+    #tab01 {
+        width:100%;
+        margin:0 auto;
+    }
+    #tab01 .ready01, .ready02, .ready03 {
+        text-align: center;
+        padding:50px 0;
+        margin:0 auto;
+        width:220px;
+    }
+    .ready_text {
+        border: 1px solid #7ea21e;
+        background:#7ea21e;
+        border-radius: 10px;
+        line-height:70px;
+        color:#fff;
+    }
+    /* tab02 acc */
+    .que:first-child{
+        border-top: 1px solid black;
+      }
+      
+    .que{
+      position: relative;
+      padding: 17px 0;
+      cursor: pointer;
+      font-size: 14px;
+      border-bottom: 1px solid #dddddd;
+      word-break: keep-all;
+    }
+      
+    .que::before{
+      display: inline-block;
+      content: 'Q';
+      font-size: 14px;
+      color: #006633;
+      margin-right: 5px;
+    }
+    
+    .que.on>span{
+      font-weight: bold;
+      color: #006633; 
+    }
+      
+    .anw {
+      display: none;
+        overflow: hidden;
+      font-size: 14px;
+      background-color: #f4f4f2;
+      padding: 27px 0;
+    }
+    .anw > span {
+        line-height:1.3;
+        word-break: keep-all;
+    }
+    .anw::before {
+      display: inline-block;
+      content: 'A';
+      font-size: 14px;
+      font-weight: bold;
+      color: #666;
+      margin-right: 5px;
+    }
+    /* tab03 */
+    #tab03 {
+         width:100%;
+         padding:30px 0;
+         height:150vh;
+     } 
+    .tab_wrap {
+        width:100%;
+        margin:0 auto;
+    }
+    /* 문의하기 */
+      .member {
+        width:100%;
+        height:155vh;
+        padding:50px 0;
+    }
+    .member_text {
+        text-align: center;
+        font-size:30px;
+    }
+    #wrapper {
+      position: relative;
+      height: 100%;
+    }
+    
+    #content {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      width: 100%;
+    }
+    
+    /* 입력폼 */
+    
+    input:focus {
+      outline: none;
+    }
+    
+    
+    h3 {
+      margin: 19px 0 8px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    
+    
+    .box {
+      display: block;
+      width: 100%;
+      height: 51px;
+      border: solid 1px #dadada;
+      padding: 10px 14px 10px 14px;
+      box-sizing: border-box;
+      background: #fff;
+      position: relative;
+    }
+    
+    .int {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 29px;
+      border: none;
+      background: #fff;
+      font-size: 15px;
+    }
+    
+    input {
+      font-family: Dotum,'돋움',Helvetica,sans-serif;    
+    }
+    
+    
+    .step_url {
+      /*@naver.com*/
+      position: absolute;
+      top: 16px;
+      right: 13px;
+      font-size: 15px;
+      color: #8e8e8e;
+    }
+    
+    
+    
+    select {
+      width: 100%;
+      height: 29px;
+      font-size: 15px;
+      background: #fff url(https://static.nid.naver.com/images/join/pc/sel_arr_2x.gif) 100% 50% no-repeat;
+      background-size: 20px 8px;
+      -webkit-appearance: none;
+      display: inline-block;
+      text-align: start;
+      border: none;
+      cursor: default;
+      font-family: Dotum,'돋움',Helvetica,sans-serif;
+    }
+    
+    /* 에러메세지 */
+    
+    .error_next_box {
+      margin-top: 9px;
+      font-size: 12px;
+      color: red;    
+      display: none;
+    }
+    
+    #alertTxt {
+      position: absolute;
+      top: 19px;
+      right: 38px;
+      font-size: 12px;
+      color: red;
+      display: none;
+    }
+    
+    /* 버튼 */
+    
+    .btn_area {
+      margin:30px 80px 91px;;
+    }
+    
+    #btnJoin {
+      width:100%;
+      padding: 21px 0 17px;
+      border: 0;
+      cursor: pointer;
+      color: #fff;
+      background-color: #08a600;
+      font-size: 20px;
+      font-weight: 400;
+      font-family: Dotum,'돋움',Helvetica,sans-serif;
+    }
+    
+    
+    /* footer */
+    
+    footer {
+        padding: 0;
+        font-size: 12px;
+        font-weight: 300;
+        color: #333;
+        background: #fff;
+        height: 200px;
+    }
+    
+    footer .container01 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    footer .container01 > ul {
+        margin: 0 auto;
+    }
+    
+    footer .container01 > ul > li {
+        float: left;
+    }
+    
+    footer .container01 > ul > li > a {
+        line-height: 40px;
+        padding: 0 43px;
+    }
+    
+    footer .container01 > ul > li a:hover {
+        text-decoration: underline;
+    }
+    
+    footer .container01 > ul > li:first-child a {
+        padding-left: 0;
+    }
+    
+    footer .container01 > ul > li:first-child {
+        position: relative;
+    }
+    
+    footer .container01 > ul > li:nth-child(4) {
+        font-weight: 700;
+    }
+    
+    footer .link {
+        position: absolute;
+        bottom: 41px;
+        left: -58px;
+        background: #f7f7f7;
+        color: #333;
+        width: 170px;
+        text-align: center;
+        height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+    footer .link.on {
+        height: auto;
+    }
+    
+    footer .link a {
+        display: block;
+        line-height: 30px
+    }
+    
+    footer .link a:hover {
+        background: #fff;
+    }
+    
+    footer .link-btn a i {
+        color: #f00;
+    }
+    
+    footer .link-btn a.on i {
+        transform: rotate(180deg)
+    }
+    
+    footer .container01 {
+        position: relative;
+    }
+    
+    .sns {
+        display:none;
+        position: absolute;
+        right: 8%;
+        top: 10px;
+    }
+    
+    .sns dd {
+        font-size: 20px;
+        color: #949595;
+        float: left;
+    }
+    
+    footer address img {
+        padding: 1.5rem 0;
+        margin: 0 10px;
+        float: left;
+        margin-right: 0;
+        width: 70px;
+    }
+    
+    footer address {
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 15px 30px;
+        font-size: 0.6rem;
+        font-weight: 100;
+        line-height: 10px;
+        background: #fff;
+        margin: 0 auto;
+    }
+    
+    footer address dl {
+        font-size: 0;
+        text-align: center;
+    }
+    
+    footer address dd {
+        display: inline-block;
+        line-height: 0;
+        font-size: 0.6rem;
+        padding: 0 5px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    footer address dd:last-child {
+        padding-left: 0;
+    }
+    
+    footer address dd:after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 12px;
+        background: #000;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    
+    footer address dd:last-child:after {
+        display: none;
+    }
+    
+    footer address > div {
+        line-height: 0;
+        padding-top: 0;
+        padding-left: 0;
+        text-align: center
+    }
+    
+    footer address > div > div {
+        padding: 0;
+        display: block;
+    }
+    
+    footer address dd:first-child:after {
+        display: none;
+    }
+    
+    footer address dd:first-child {
+        padding-left: 0;
+    }
+    
+    footer address dd {
+        line-height: 1rem;
+    }
+    .mopen {display: block;}
+}

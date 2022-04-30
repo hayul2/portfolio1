@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>연세대학교 홈페이지에 오신것을 환영합니다.</title>
+
+    <meta name="robots" content="index,follow">
+    <meta name="title" content="연세대학교">
+    <meta name="description" content="연세대학교">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="연세대학교">
+    <meta property="og:description" content="연세대학교">
+    <meta property="og:url" content="http://www.yul2.pe.kr">
+
+    <link rel="shortcut icon" href="./img/icon.ico">
+    <link rel="canonical" href="http://www.yul2.pe.kr">
+
+    <link href="../assets/css/common.css" rel="stylesheet">
+    <link href="../assets/css/fullpage.css" rel="stylesheet">
+    <link href="../assets/css/slick.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+
+    <script src="../assets/js/jquery-1.12.4.js"></script>
+    <script src="../assets/js/jquery-ui.js"></script>
+    <script src="../assets/js/jquery.cookie.js"></script>
+    <script src="../assets/js/fullpage.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="top-banner">
+                <div class="container">
+                    <p>
+                        이 홈페이지는 웹디자인 포트폴리오로, 비상업적 용도로 사용됩니다.
+                    </p>
+                    <i class="xi-close"></i>
+                </div>
+            </div>
+            <div class="nav-nav">
+                <ul class="left">
+                    <li><a href="#!">신촌·국제캠퍼스</a></li>
+                    <li><a href="#!">미래캠퍼스</a></li>
+                    <li><a href="#!">총동문회</a></li>
+                </ul>
+                <ul class="right">
+                    <li><a href="#!">연세캘린더</a></li>
+                    <li><a href="#!">FAQ</a></li>
+                    <li><a href="#!">LOGIN</a></li>
+                    <li class="link-btn">
+                        <a href="#">LANGUAGE<i class="xi-angle-down-min"></i></a>
+                        <ul class="link">
+                            <li><a href="#!">KOREAN
+                                </a></li>
+                            <li><a href="#!">ENGLISH</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <nav class="gnb row">
+                <div class="container">
+                    <h1>
+                        <a href="index.html">
+                            <img src="./img/logo.png" alt="연세대학교심벌">
+                        </a>
+                    </h1>
+                    <ul class="gnb-menu">
+                        <li><a href="#!">연세소개</a>
+                            <ul class="gnb-submenu">
+                                <li><a href="#!">인사말/프로필</a></li>
+                                <li><a href="#!">연설문</a></li>
+                                <li><a href="#!">역대총장</a></li>
+                                <li><a href="#!">연세의 발자취</a></li>
+                                <li><a href="#!">캠퍼스소개</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#!">연구·산학</a>
+                            <ul class="gnb-submenu">
+                                <li><a href="#!">연구성과 통계</a></li>
+                                <li><a href="#!">연세리서치매거진</a></li>
+                                <li><a href="#!">연구기관</a></li>
+                                <li><a href="#!">개별연구자성과</a></li>
+                                <li><a href="#!">관련사이트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#!">입학·교육</a>
+                            <ul class="gnb-submenu">
+                                <li><a href="#!">입학안내</a></li>
+                                <li><a href="#!">모집요강</a></li>
+                                <li><a href="#!">대학</a></li>
+                                <li><a href="#!">대학원</a></li>
+                                <li><a href="#!">비학위과정</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#!">대학생활</a>
+                            <ul class="gnb-submenu">
+                                <li><a href="#!">공지사항</a></li>
+                                <li><a href="#!">외부기관공고</a></li>
+                                <li><a href="#!">행정부서</a></li>
+                                <li><a href="#!">부속기관</a></li>
+                                <li><a href="#!">편의시설</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#!">학사지원</a>
+                            <ul class="gnb-submenu">
+                                <li><a href="#!">학사일정</a></li>
+                                <li><a href="#!">증명서 발급</a></li>
+                                <li><a href="#!">교과이수</a></li>
+                                <li><a href="#!">수강신청</a></li>
+                                <li><a href="#!">등록금 일정</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="gnb-sns">
+                        <li><i class="xi-search"></i></li>
+                        <li><i class="xi-bars"></i></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="search">
+                <form name="search_top" id="search_top" method="get" action="">
+                    <label>SEARCH </label>
+                    <input type="search" name="searchInput" id="searchInput">
+                    <button type="submit"><i class="xi-search"></i></button>
+                </form>
+                <script>
+                    $("#search_top").on("submit", function() {
+                        let seachVal = $("#searchInput").val();
+                        if (!seachVal) alert("검색어를 입력하세요!");
+                    })
+                </script>
+            </div>
+            
+            <nav class="mobile-gnb-nav">
+                <ul class="mobile-gnb-menu">
+                        <li><a href="#!">연세소개</a>
+                            <ul class="mobile-gnb-submenu">
+                                <li><a href="#!">인사말/프로필</a></li>
+                                <li><a href="#!">연설문</a></li>
+                                <li><a href="#!">역대총장</a></li>
+                                <li><a href="#!">연세의 발자취</a></li>
+                                <li><a href="#!">캠퍼스소개</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#!">연구·산학</a>
+                            <ul class="mobile-gnb-submenu">
+                                <li><a href="#!">연구성과 통계</a></li>
+                                <li><a href="#!">연세리서치매거진</a></li>
+                                <li><a href="#!">연구기관</a></li>
+                                <li><a href="#!">개별연구자성과</a></li>
+                                <li><a href="#!">관련사이트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#!">입학·교육</a>
+                            <ul class="mobile-gnb-submenu">
+                                <li><a href="#!">입학안내</a></li>
+                                <li><a href="#!">모집요강</a></li>
+                                <li><a href="#!">대학</a></li>
+                                <li><a href="#!">대학원</a></li>
+                                <li><a href="#!">비학위과정</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#!">대학생활</a>
+                            <ul class="mobile-gnb-submenu">
+                                <li><a href="#!">공지사항</a></li>
+                                <li><a href="#!">외부기관공고</a></li>
+                                <li><a href="#!">행정부서</a></li>
+                                <li><a href="#!">부속기관</a></li>
+                                <li><a href="#!">편의시설</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#!">학사지원</a>
+                            <ul class="mobile-gnb-submenu">
+                                <li><a href="#!">학사일정</a></li>
+                                <li><a href="#!">증명서 발급</a></li>
+                                <li><a href="#!">교과이수</a></li>
+                                <li><a href="#!">수강신청</a></li>
+                                <li><a href="#!">등록금 일정</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <section id="main-visual">
+                <div class="visual-slider">
+                    <figure class="visual_01">
+                        <div class="slogan-text">
+                            <h2>THE 세계대학 영향력 평가 "세계30위"</h2>
+                            <p>사회적 책임을 다하고 균형있는 발전을 도모하는 대학으로 도약</p>
+                        </div>
+                    </figure>
+                    <figure class="visual_02">
+                        <div class="slogan-text">
+                            <h2>'스마트캠퍼스 사업 구축 및 공동 서비스 개발'Mou</h2>
+                            <p>네이버·우리은행과 국내 대학 최초로 최첨단 IT와 <br>금융이 결합된 통합 디지털 정보서비스 제공</p>
+                        </div>
+                    </figure>
+                    <figure class="visual_03">
+                        <div class="slogan-text">
+                            <h2>창립 136주년 기념식 개최(영상)</h2>
+                            <p>연세는 새로운 교육 매체의 혁신을 선도하며 어둠을 밝혀가는 자랑스러운 빛의 사명을 이어갈 것입니다.</p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="slider-option">
+                    <i class='xi-pause'></i>
+                    <i class='xi-play'></i>
+                    <ul class="slick-dots">
+                        <li class="on"><a href="#!">1</a></li>
+                        <li><a href="#!">2</a></li>
+                        <li><a href="#!">3</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="quick">
+                <div class="container">
+                    <div class="left quickGrid">
+                        <h2 class="q-text">QUICK MENU</h2>
+                    </div>
+                    <figure class="quickGrid">
+                        <a href="#!"><img src="./img/icon01.png" alt=""><p>교원정보시스템</p></a>
+                        
+                    </figure>
+                    <figure class="quickGrid">
+                        <a href="#!"><img src="./img/icon02.png" alt=""><p>연세포탈</p></a>
+                        
+                    </figure>
+                    <figure class="quickGrid">
+                        <a href="#!"><img src="./img/icon03.png" alt=""><p>학술정보원</p></a>
+                        
+                    </figure>
+                    <figure class="quickGrid">
+                        <a href="#!"><img src="./img/icon04.png" alt=""></a>
+                        <p>LearnUs</p>
+                    </figure>
+                    <figure class="quickGrid">
+                        <a href="#!"><img src="./img/icon05.png" alt=""><p>학교발전기금</p></a>
+                        
+                    </figure>
+                    <figure class="quickGrid">
+                        <a href="#!"><img src="./img/icon06.png" alt=""><p>MOOC</p></a>
+                        
+                    </figure>
+                    <figure class="quickGrid">
+                        <a href="#!"><img src="./img/icon07.png" alt=""><p>교내전화번호</p></a>
+                        
+                    </figure>
+                    <figure class="quickGrid">
+                        <a href="#!"><img src="./img/icon08.png" alt=""><p>교내웹사이트</p></a>
+                        
+                    </figure>
+                    <figure class="quickGrid">
+                        <a href="#!"><img src="./img/icon09.png" alt=""><p>캠퍼스안내</p></a>
+                        
+                    </figure>
+                </div>
+            </section>
+            <section id="content">
+                <h2>연세소식</h2>
+                <div class="container">
+                    <div class="content-slider">
+                        <figure>
+                            <a href="#"><img src="./img/content01.jpeg" alt=""></a>
+                            <p>
+                                연세 창립 136주년 기념식 개최
+                            </p>
+                            <span>
+                                어둠을 밝혀가는 자랑스러운 빛의 사명을 이어갈 것
+                            </span>
+                        </figure>
+                        <figure>
+                            <a href="#"><img src="./img/content02.jpeg" alt=""></a>
+                            <p>
+                                상경대학, 故 김우중(前 대우그룹 회장) 흉상 제막식 개최
+                            </p>
+                            <span>
+                                김우중 회장의 모교 사랑을 기억하고 후배들에게 그 뜻을 전하기 위해 흉상을 건립
+                            </span>
+                        </figure>
+                        <figure>
+                            <a href="#"><img src="./img/content03.jpeg" alt=""></a>
+                            <p>
+                                우리 대학교, 우리은행-네이버와 3자 MOU 체결
+                            </p>
+                            <span>
+                                우리 대학교 전용 스마트캠퍼스 사업을 위한 본격적인 출발
+                            </span>
+                        </figure>
+                        <figure>
+                            <a href="#"><img src="./img/content04.jpg" alt=""></a>
+                            <p>
+                                2020학년도 우수업적교수상 수상자 선정
+                            </p>
+                            <span>
+                                봉사, 교육, 연구 부문에서 탁월한 업적 보여줘
+                            </span>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <section id="notice">
+                <div class="inner">
+                    <div class="notice-con01">
+                        <div class="notice-tab01">
+                            <div>
+                                <ul class="tab-menu01">
+                                    <li class="on"><a href="#!">공지사항</a></li>
+                                    <li><a href="#!">캘린더</a></li>
+                                    <li><a href="#!">보도자료</a></li>
+                                </ul>
+                                <div class="tab-con tab-con01">
+                                    <div>
+                                        <a href="#">2021학년도 하절기 냉방실시계획안내<span>[신촌]</span></a>
+                                        <a href="#">울산과학기술원 2021학년도 여름학기 국내..<span>[신촌/국제]</span></a>
+                                        <a href="#">2021학년도 여름 계절제 수업 안내(학부)<span>[공통]</span></a>
+                                        <a href="#">중앙대학교 2021학년도 여름학기 국내대학..<span>[공통]</span></a>
+                                        <a href="#">제21회 언더우드 선교상 공고<span>[공통]</span></a>
+                                    </div>
+                                    <div>
+                                        <a href="#">2021년 1학기 신촌캠퍼스 셔틀버스 운행 시간표</a>
+                                        <a href="#">2021학년 1학기 국제캠퍼스 셔틀버스 운행시간표</a>
+                                        <a href="#">2021학년도 1학기 서울캠퍼스에서 미래캠퍼스 통근버스 단축 운행 재안내</a>
+                                        <a href="#">2021학년도 1학기 학부 강의정보 공유를 위한 설문 실시 안내</a>
+                                        <a href="#">서강대학교 2021학년도 여름학기 국내대학 학점교류 수학 안내</a>
+                                        <a href="#">중앙대학교 2021학년도 여름학기 국내대학 학점교류 수학 안내</a>
+                                    </div>
+                                    <div>
+                                        <a href="#">연세대 바른ICT연구소 집콕ICT챌린지 수상..<span>[2021.5.11]</span></a>
+                                        <a href="#">연세대 글로벌사회공헌원,특별세미나 'GEE..<span>[2021.5.11]</span></a>
+                                        <a href="#">연세대 김관표 교수팀,새로운 구조의 4-6족 ..<span>[2021.5.11]</span></a>
+                                        <a href="#">연세대학교 창립 136주년 기념식 개최<span>[2021.5.8]</span></a>
+                                        <a href="#">연세대 상경대학, 故 김우중(前 대우그룹 회..<span>[2021.5.7]</span></a>
+                                        <a href="#">연세대-우리은행-네이버 3자 MOU체결<span>[2021.5.6]</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="focus">
+                            <ul class="focus-slider">
+                                <li><iframe width="100%" height="300" src="https://www.youtube.com/embed/Jh87RVcjhCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                                <li><iframe width="100%" height="300" src="https://www.youtube.com/embed/27sQ9XR4CsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="item">
+                <div class="container">
+                    <figure>
+                        <h2>
+                            연구성과
+                        </h2>
+                        <a href="#"><img src="./img/item01.png" alt=""></a>
+                        <p>
+                            홍종섭 교수 연구팀, 연료전지 수소생산성 및 탄소저항성 향상 가능한 합금촉매 개발
+                        </p>
+                        <span>
+                            홍종섭 교수 연구팀
+                        </span>
+                    </figure>
+                    <figure>
+                        <h2>
+                            연세 SNS
+                        </h2>
+                        <a href="#"><img src="./img/item02.jpeg" alt=""></a>
+                        <p>
+                            연세대학교, 요즈마그룹과 업무협약 체결
+                        </p>
+                        <span>
+                            2021.04.22
+                        </span>
+                    </figure>
+                    <figure>
+                        <h2>
+                            연세공감
+                        </h2>
+                        <a href="#"><img src="./img/item03.jpeg" alt=""></a>
+                        <p>
+                            2020 아카라카를 ON누리에 Part 3 : I Love and Cheer Yonsei
+                        </p>
+                        <span>
+                            2020.11.22
+                        </span>
+                    </figure>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="inner">
+            <ul class="ft-box">
+                <li><a href="#!">채용공고</a></li>
+                <li><a href="#!">입찰공고</a></li>
+                <li><a href="#!">대학정보공시</a></li>
+                <li><a href="#!">정보공개</a></li>
+                <li><a href="#!">개인정보처리방침</a></li>
+                <li><a href="#!">법적고지</a></li>
+                <li><a href="#!">연세사회공헌</a></li>
+                <li><a href="#!">윤리인권위원회</a></li>
+                <li><a href="#!">사이트맵</a></li>
+            </ul>
+        </div>
+        <address>
+            <div class="inner02">
+                <ul class="f-left">
+                    <li><a href="tel:1599-1885">신촌·국제/미래 : 1599-1885</a></li>
+                    <li><a href="tel:1599-1004">의료원 : 1599-1004</a></li>
+                    <li><a href="#">03722 서울특별시 서대문구 연세로 50 연세대학교</a></li>
+                    <li><a href="#">COPYRIGHT© 2020 YONSEI UNIV. ALL RIGHTS RESERVED.</a></li>
+                </ul>
+                <ul class="f-right">
+                    <li class="img"><a href="#"><img src="./img/img_wa.png" alt=""></a></li>
+                    <li class="img"><a href="#"><img src="./img/img_ismp.png" alt=""></a></li>
+                    <li class="text"><a href="#">[인증범위] 연세대학교 학부대상 학사정보서비스</a></li>
+                    <li class="text"><a href="#">[유효기간] 2019.07.11 ~ 2022.07.10</a></li>
+                </ul>
+            </div>
+            <div class="f-sns">
+                <ul>
+                    <li><a href="#!"><i class="xi-youtube"></i></a></li>
+                    <li><a href="#!"><i class="xi-instagram"></i></a></li>
+                    <li><a href="#!"><i class="xi-facebook"></i></a></li>
+                    <li><a href="#!"><i class="xi-naver"></i></a></li>
+                </ul>
+            </div>
+        </address>
+    </footer>
+    <div class="mopen">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <script src="./js/main.js"></script>
+
+
+</body></html>

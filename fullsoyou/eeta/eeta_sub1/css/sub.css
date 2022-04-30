@@ -1,0 +1,570 @@
+.wrap {
+  overflow: hidden;
+}
+body {
+    font-family: initial;
+}
+.SE_contect_hidden * {
+    color:white;
+}
+/* about us top */
+.AB_top {
+    height: 550px;
+    overflow: hidden;
+    margin-bottom: 390px;
+}
+.AB_top > div {
+    position: absolute;
+    top: 145px;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.AB_top > div:last-child {
+    width: 70%;
+    left: 50%;
+    color: black;
+    padding: 95px 185px;
+    transform: translateX(-50%);
+    top: 430px;
+    background-color: white;
+    border: 10px solid #e2e2e2;
+}
+.AB_underline {
+    width: 185px;
+    height: 4px;
+    background-color: var(--point_C);
+    margin: 21px auto 50px auto;
+}
+.AB_top img {
+    width: 100%;
+}
+.AB_top > div:nth-of-type(1) p {
+    padding-top: 55px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.AB_top > div:nth-of-type(2) p {
+    line-height: 32px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.AB_top h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.AB_top h1 {
+    font-size: 90px;
+}
+
+/* news */
+.SE_news > div {
+    position: relative;
+}
+.SE_news > div > div:first-child {
+    position: absolute;
+    background-color: var(--point_C);
+    padding: 8px;
+    border-radius: 0 0 15px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.SE_news img {
+    height: 280px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.SE_news p:nth-child(2) {
+    font-weight: bold;
+    font-size: 20px;
+}
+.SE_news p {
+    font-size: 18px;
+    line-height: 35px;
+}
+.AB_contect1 h1,.AB_contect2 h1 {
+    font-size: 30px;
+    color: var(--point_C);
+    font-weight: bold;
+    text-align: center;
+}
+.business {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 0 100px 0;
+  color: #333;
+}
+.business .card {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+.business .text-p {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+.business .prod-img {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  margin:auto;
+  position:relative;
+}
+.business .text-c {
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 22px;
+  position: relative;
+  height:44px;
+}
+.prod-img > div {
+    padding: 32px 23px;
+    height: 250px;
+    border-radius: 10px;
+    line-height: 25px;
+    background-color: #f8f9fd;
+    color: #2f2f2f;
+    margin-top: 53px;
+}
+.business .text-c:after {
+  content: '';
+  display: block;
+  position:absolute;
+  bottom: -25px;
+  left:45%;
+  background: #71bf44;
+  width:30px;
+  height:2px;
+}
+.business .prod-img > div > p {
+    height: 115px;
+    font-weight: bold;
+}
+.business .prod-img li i {
+    color:#71bf44;
+    padding-right: 10px;
+}
+.business .prod-img li {
+  font-size: 15px;
+  line-height: 21px;
+  color:gray;
+  text-align: left;
+}
+.business .prod-img li p {
+    padding-left: 20px;
+    text-align: left;
+    transform: translateY(-21px);
+}
+.business .b_slider {
+  padding-bottom: 30px;
+  margin: 0 auto;
+  width: 80%;
+}
+.business figure {
+  width: 1200px;
+}
+.business figure img {
+  width: 100%;
+  max-height: 285px
+}
+.business .slick-dots button {
+  display: none;
+}
+.business .xi-angle-left {
+  position: absolute;
+  top: 40%;
+  left:5%;
+  color: #333;
+  font-size: 28px;
+  cursor: pointer;
+}
+  .business .xi-angle-right {
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  color: #333;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* collabo */
+#collabo {
+  padding: 50px 0;
+  position: relative;
+  margin: 0 auto;
+  color: #333;
+  background: #f2f2f2;
+}
+#collabo .c01_box {
+  margin:0 auto;
+}
+#collabo .c01_text {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+}
+#collabo .c02_text {
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 17px;
+  padding-bottom:30px;
+}
+#collabo .AB_underline {
+  width: 135px;
+}
+#collabo .c_img {
+  padding: 30px;
+  height: 100%;
+  width: 98%;
+  margin:0 auto;
+  border:1px solid #333;
+}
+#collabo .c_box>p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 300px;
+    font-size: 30px;
+    margin-bottom: 130px;
+    border: 3px solid #f5f5f5;
+    line-height: 300px;
+    color: #dadada;
+    background-color: #fdfdfd;
+    border-radius: 30px;
+    font-weight: bold;
+}
+#collabo .c_slider {
+  padding:50px 0 30px 0;
+  margin: 0 auto;
+  width: 80%;
+}
+#collabo>figure {
+  width: 1200px;
+  margin:0 auto;
+}
+#collabo .slick-dots button {
+  display: none;
+}
+#collabo .c_img>h2 {
+  font-size:1rem;
+  font-weight: bold;
+}
+#collabo .c_img>p {
+  padding:15px 0;
+}
+
+/*partners*/
+#partners {
+  width: 100%;
+  padding:100px 0px;
+}
+.p-box {
+  margin: 0 auto;
+  text-align: center;
+}
+.p-text {
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.p-sub-text {
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 17px;
+}
+.p-img-box {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+#partners figure {
+  display: inline-block;
+  padding: 4rem 30px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+#partners figure img {
+  width: 120px;
+  height: 40px;
+}
+
+@media (min-width:375px) and (max-width:1024px) {
+  /* news */
+  .SE_news > div {
+      position: relative;
+  }
+  .SE_news > div > div:first-child {
+      position: absolute;
+      background-color: var(--point_C);
+      padding: 8px;
+      border-radius: 0 0 15px 0;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+  }
+  .SE_news img {
+      height: 280px;
+      width: 100%;
+      margin-bottom: 30px;
+  }
+  .SE_news p:nth-child(2) {
+      font-weight: bold;
+      font-size: 20px;
+  }
+  .SE_news p {
+      font-size: 18px;
+      line-height: 35px;
+  }
+  .AB_contect1 h1,.AB_contect2 h1 {
+      font-size: 30px;
+      color: var(--point_C);
+      font-weight: bold;
+      text-align: center;
+  }
+
+  /*.business */
+  .business .card {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+  }
+  .business .text-p {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+  }
+  .business .prod-img {
+    padding:0;
+    width: 90%;
+  }
+  .business .prod-img a:after {
+    content: '';
+    display: block;
+    clear:both;
+  }
+  .business .text-c {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .business .c-text {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 15px 0;
+    line-height: 1.2;
+    position:relative;
+    word-break: keep-all;
+  }
+  .business .prod-img>ul {
+    margin:0 auto;
+    text-align:center;
+  }
+  .business .prod-img>ul>li {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    color: gray;
+  }
+
+  .business .b_slider {
+    width: 100%;
+    position:relative;
+  }
+  .business figure {
+    width: 100%;
+  }
+
+  /* collabo */
+  #collabo .c01_box {
+    margin:0 auto;
+  }
+  #collabo .c01_text {
+    font-size:24px;
+    padding-bottom:20px;
+  }
+  #collabo .c02_text {
+    font-size:16px;
+  }
+  #collabo .c_img {
+    padding: 30px;
+    height: 186px;
+    margin:0 auto;
+    border:1px solid #333;
+  }
+  #collabo .c_slider {
+    padding:30px 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+  #collabo>figure {
+    width: 100%;
+    margin:0 auto;
+  }
+  #collabo .slick-dots button {
+    display: none;
+  }
+  #collabo .c_img>h2 {
+    font-size:1rem;
+    font-weight: bold;
+  }
+  #collabo .c_img>p {
+    padding:15px 0;
+    height:50px;
+  }
+
+  /*partners*/
+  .p-text {
+    padding-top: 80px;
+    font-size: 24px;
+  }
+  .p-sub-text {
+    padding: 15px 0 20px 0;
+    font-size: 16px;
+    line-height: 1.2
+  }
+  .p-img-box {
+    padding: 30px 0;
+  }
+  #partners figure {
+    display: block;
+    padding: 2rem 30px;
+  }
+}
+
+@media (min-width:375px) and (max-width:500px) {
+    .AB_top h1 {
+        font-size: 36px;
+    }
+    .AB_top > div:last-child {
+        top: 295px;
+        padding: 33px;
+    }
+    .AB_top {
+        height: 370px;
+        margin-bottom:300px;
+    }
+    .AB_top h2 {
+        font-size: 17px;
+    }
+    .AB_underline {
+        width: 102px;
+        margin: 16px auto 19px auto;
+    }
+    .AB_top > div:nth-of-type(2) p {
+        font-size: 12px;
+        line-height: 21px;
+        padding:0 7px;
+    }
+    .AB_top > div:nth-of-type(1) p {
+        padding-top: 21px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .AB_company > P:nth-child(3) {
+        font-size: 12px;
+        line-height: 21px;
+        text-align: center;
+        padding: 20px 24px;
+    }
+    .AB_top img {
+        height: 100%;
+    }
+
+    /* business */
+    .business {
+        width: 85%;
+        height: 490px;
+    }
+    .business .xi-angle-right {
+        top: 9%;
+        right: -5%;
+        font-size: 18px;
+    }
+    .business .xi-angle-left {
+        top: 9%;
+        left: -5%;
+        font-size: 18px;
+    }
+    .business .text-c {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .business .text-c:after {
+      left:40%;
+      bottom:-18px;
+    }
+    .business .c-text {
+      font-size: 11px;
+      line-height: 20px;
+    }
+    .business .prod-img ul>li {
+      font-size: 10px;
+      height: 41px;
+      line-height: 14px;
+    }
+    .business .prod-img li p {
+        transform: translateY(-14px);
+    }
+    .prod-img > div {
+        padding: 0 10px;
+        height: 218px;
+    }
+    .FI_li {
+        height: 25px !important;
+    }
+    .prod-img .FI_top {
+        margin-top:42px;
+    }
+    .p-text ,#collabo .c01_text {
+      font-size: 17px;
+      padding: 0;
+    }
+    #collabo .AB_underline {
+      width: 87px;
+    }
+    #collabo .c02_text , .p-sub-text{
+      font-size: 12px;
+      width: 80%;
+      margin: auto;
+      line-height: 21px;
+    }
+    #collabo .c_img>p {
+      font-size: 11px;
+      line-height: 18px;
+    }
+    #collabo {
+      padding:30px 0;
+    }
+    .p-img-box {
+      padding:0;
+    }
+    #partners figure {
+      padding:1rem 30px;
+    }
+    #partners figure img {
+      width: 83px;
+      height: 25px;
+    }
+
+    /* footer */
+    .family_site {
+        width:100%;
+    }
+    .family_site_ul {
+        width: 100%;
+    }
+}
